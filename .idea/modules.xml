@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IDEADorado.iml" filepath="$PROJECT_DIR$/IDEADorado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-common/dorado-common.iml" filepath="$PROJECT_DIR$/dorado-common/dorado-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-core/dorado-core.iml" filepath="$PROJECT_DIR$/dorado-core/dorado-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-editor/dorado-editor.iml" filepath="$PROJECT_DIR$/dorado-editor/dorado-editor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-library/dorado-library.iml" filepath="$PROJECT_DIR$/dorado-library/dorado-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-project/dorado-project.iml" filepath="$PROJECT_DIR$/dorado-project/dorado-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-resource/dorado-resource.iml" filepath="$PROJECT_DIR$/dorado-resource/dorado-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dorado-support/dorado-support.iml" filepath="$PROJECT_DIR$/dorado-support/dorado-support.iml" />
+    </modules>
+  </component>
+</project>
+

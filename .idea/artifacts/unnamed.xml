@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="module-output" name="dorado-common" />
+      <element id="module-output" name="dorado-core" />
+      <element id="module-output" name="dorado-editor" />
+      <element id="module-output" name="dorado-library" />
+      <element id="module-output" name="dorado-project" />
+      <element id="module-output" name="dorado-resource" />
+      <element id="module-output" name="dorado-support" />
+    </root>
+  </artifact>
+</component>
