@@ -30,5 +30,10 @@ public class DoradoCommonDesignerEditor extends DoradoDesignerEditor {
     public BackgroundEditorHighlighter getBackgroundHighlighter() {
         return null;
     }
+
+    @Override
+    public VirtualFile file() {
+        return null;
+    }
 }
 

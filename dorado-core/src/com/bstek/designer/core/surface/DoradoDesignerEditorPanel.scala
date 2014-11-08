@@ -659,7 +659,7 @@ abstract class DoradoDesignerEditorPanel(@BeanProperty val editor: DoradoDesigne
     //        }
     //      }
     if (selection.isEmpty) {
-      toolManager.refresh(true)
+      //toolManager.refresh(true)
     }
     //      else {
     //        mySurfaceArea.setSelection(selection)
@@ -780,7 +780,7 @@ abstract class DoradoDesignerEditorPanel(@BeanProperty val editor: DoradoDesigne
   //  }
   //
   def createState: DesignerEditorState = {
-    return new DesignerEditorState(getFile)
+    return new DesignerEditorState(getFile,1f)
   }
 
   //

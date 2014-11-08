@@ -5,7 +5,7 @@ import java.awt.event._
 import java.awt.image.BufferedImage
 import javax.swing._
 
-import com.intellij.designer.{AbstractToolWindowManager, LightToolWindowContent}
+import com.intellij.designer.{LightToolWindowManager, AbstractToolWindowManager, LightToolWindowContent}
 import com.intellij.icons.AllIcons
 import com.intellij.ide.util.PropertiesComponent
 import com.intellij.openapi.actionSystem._
@@ -62,8 +62,8 @@ class DoradoToolWindow(val content: DoradoToolWindowContent
   private val toggleFloatingModeAction: ToggleFloatingModeAction = new ToggleFloatingModeAction
   //--侧边模式
   private val toggleSideModeAction: ToggleSideModeAction = new ToggleSideModeAction
-  val showStateKey = AbstractToolWindowManager.EDITOR_MODE + key + ".SHOW"
-  val widthKey = AbstractToolWindowManager.EDITOR_MODE + key + ".WIDTH"
+  val showStateKey = LightToolWindowManager.EDITOR_MODE + key + ".SHOW"
+  val widthKey = LightToolWindowManager.EDITOR_MODE + key + ".WIDTH"
   var currentWidth: Int = 0
   final val LEFT_MIN_KEY: String = "left"
   final val RIGHT_MIN_KEY: String = "right"

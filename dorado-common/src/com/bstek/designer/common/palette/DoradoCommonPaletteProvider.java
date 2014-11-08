@@ -1,7 +1,7 @@
 package com.bstek.designer.common.palette;
 
 import com.bstek.designer.core.DoradoPaletteProvider;
-import com.intellij.ide.palette.PaletteGroup;
+import com.intellij.designer.palette.PaletteGroup;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.xml.XmlFile;
@@ -40,10 +40,20 @@ public class DoradoCommonPaletteProvider extends DoradoPaletteProvider {
             DomFileDescription domFileDescription = DomManagerImpl.getDomManager(getProject()).getDomFileDescription(((XmlFile) psiFile));
             return getActiveGroups(domFileDescription);
         }
-        return PaletteGroup.EMPTY_ARRAY;
+        return new PaletteGroup[0];
     }
 
     public PaletteGroup[] getActiveGroups(DomFileDescription domFileDescription) {
-        return PaletteGroup.EMPTY_ARRAY;
+        return new PaletteGroup[0];
+    }
+
+    @Override
+    public Project getProject() {
+        return null;
+    }
+
+    @Override
+    public Project project() {
+        return null;
     }
 }

@@ -1,6 +1,6 @@
 package com.bstek.designer.core
 
-import com.intellij.ide.palette.{PaletteGroup, PaletteItemProvider}
+import com.intellij.designer.palette.PaletteGroup
 import com.intellij.openapi.project.Project
 import java.beans.{PropertyChangeSupport, PropertyChangeEvent, PropertyChangeListener}
 import com.intellij.openapi.vfs.VirtualFile
@@ -14,7 +14,7 @@ import com.bstek.designer.core.config.Dorado7RulesConfigImpl
  * Time: 下午3:34
  * To change this template use File | Settings | File Templates.
  */
-abstract class DoradoPaletteProvider(@scala.beans.BeanProperty val project: Project) extends PaletteItemProvider {
+abstract class DoradoPaletteProvider(@scala.beans.BeanProperty val project: Project)  {
 
   def removeListener(p1: PropertyChangeListener)
 
